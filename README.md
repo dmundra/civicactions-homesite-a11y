@@ -2,6 +2,10 @@
 
 Testing CivicActions Homesite for accessibility issues.
 
+## Results
+
+[View the results of test](/civicactions-homesite-a11y/pa11y_report/).
+
 ## pa11y.yml
 
 Tests the home site for accessibility issues using pa11y-ci. The results of the tests are shown in HTML that has to be downloaded from GitHub under 'Artifacts' and viewed locally.
