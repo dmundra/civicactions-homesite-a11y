@@ -2,8 +2,11 @@
   "name": "civicactions-homesite-a11y",
   "author": "Daniel Mundra",
   "license": "MIT",
-  "scripts": {},
-  "dependencies": {},
+  "scripts": {
+    "pa11y-ci:home": "pa11y-ci https://civicactions.com --json > pa11y_output.json",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap https://civicactions.com/sitemap.xml --sitemap-exclude \"/*.pdf\" --json > pa11y_output.json",
+    "pa11y-ci:output": "pa11y-ci-reporter-html -s pa11y_output.json -d pa11y_report"
+  },
   "devDependencies": {
     "pa11y-ci": "^2.4.0",
     "pa11y-ci-reporter-html": "^2.1.1"
