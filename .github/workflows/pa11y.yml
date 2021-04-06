@@ -26,6 +26,7 @@ jobs:
           echo "::group::pa11y errors"
           echo "pa11y-ci found some accessibility problems, download 'pa11y_report' under artifacts to see the report."
           echo "::endgroup::"
+
       - name: Generate pa11y HTML report.
         if: ${{ always() }}
         run: npm run pa11y-ci:output
