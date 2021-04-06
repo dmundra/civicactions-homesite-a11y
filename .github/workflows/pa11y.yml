@@ -29,6 +29,9 @@ jobs:
       - name: Generate pa11y HTML report.
         if: ${{ always() }}
         run: npm run pa11y-ci:output
+        
+      - name: Commit pa11y HTML report.
+        uses: EndBug/add-and-commit@v7
 
       - name: Save pa11y HTML report.
         if: ${{ always() }}
