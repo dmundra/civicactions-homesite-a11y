@@ -1,0 +1,11 @@
+{
+  "name": "civicactions-homesite-a11y",
+  "author": "Daniel Mundra",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "pa11y-ci": "^2.4.0",
+    "pa11y-ci-reporter-html": "^2.1.1"
+  }
+}
