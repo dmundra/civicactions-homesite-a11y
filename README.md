@@ -1,14 +1,14 @@
 # CivicActions Home site a11y testing
 
-Testing CivicActions Homesite for accessibility issues.
+Testing CivicActions Homesite for accessibility issues using `pa11y-ci` and `axe`.
 
-## Results
+## Report
 
-[View the results of test](/civicactions-homesite-a11y/pa11y_report/).
+[View the report of all pages of the site](/civicactions-homesite-a11y/pa11y_report/). The report can also be downloaded from GitHub under 'Artifacts' and viewed locally.
 
 ## pa11y.yml
 
-Tests the home site for accessibility issues using pa11y-ci. The results of the tests are shown in HTML that has to be downloaded from GitHub under 'Artifacts' and viewed locally.
+GitHub action that will run pa11y-ci against the live site daily.
 
 pa11y-ci is configured with the file [.pa11yci](.pa11yci).
 
