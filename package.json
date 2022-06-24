@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "pa11y-ci:home": "pa11y-ci https://civicactions.com --json > pa11y_output.json",
-    "pa11y-ci:sitemap": "pa11y-ci --sitemap https://civicactions.com/sitemap.xml --sitemap-exclude \"/*.pdf\" --json > pa11y_output.json",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap https://civicactions.com/sitemap/sitemap-0.xml --sitemap-exclude \"/*.pdf\" --json > pa11y_output.json",
     "pa11y-ci:output": "pa11y-ci-reporter-html -s pa11y_output.json -d pa11y_report"
   },
   "devDependencies": {
