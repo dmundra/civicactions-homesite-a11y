@@ -30,6 +30,8 @@ jobs:
       - name: Commit pa11y HTML report.
         if: ${{ always() }}
         uses: EndBug/add-and-commit@v7
+        with:
+          pull_strategy: NO-PULL
 
       - name: Save pa11y HTML report.
         if: ${{ always() }}

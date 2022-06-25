@@ -2,7 +2,7 @@
   "defaults": {
     "concurrency": 1,
     "standard": "WCAG2AA",
-    "runners": ["axe", "htmlcs"],
+    "runners": ["axe"],
     "reporters": [
       ["pa11y-ci-reporter-html", { "destination": "./pa11y_report" }]
     ]
