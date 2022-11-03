@@ -8,7 +8,7 @@ Testing CivicActions Homesite for accessibility issues using `pa11y-ci` and `axe
 
 ## pa11y.yml
 
-GitHub action that will run pa11y-ci against the live site daily.
+GitHub action that will run pa11y-ci against the live site monthly.
 
 pa11y-ci is configured with the file [.pa11yci](.pa11yci).
 
