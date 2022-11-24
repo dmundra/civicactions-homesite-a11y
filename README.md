@@ -19,8 +19,8 @@ The pa11y-ci commands can also be run locally to generate the same test results:
 
 # References
 
-* https://github.com/pa11y/pa11y
-* https://github.com/pa11y/pa11y-ci
-* https://engineering.18f.gov/accessibility-scanning/
-* https://medium.com/@f3igao/how-to-automate-web-accessibility-testing-921512bdd4bf
-* https://stackoverflow.com/questions/58858429/how-to-run-a-github-actions-step-even-if-the-previous-step-fails-while-still-f
+* [https://github.com/pa11y/pa11y](https://github.com/pa11y/pa11y)
+* [https://github.com/pa11y/pa11y-ci](https://github.com/pa11y/pa11y-ci)
+* [https://engineering.18f.gov/accessibility-scanning/](https://engineering.18f.gov/accessibility-scanning/)
+* [https://medium.com/@f3igao/how-to-automate-web-accessibility-testing-921512bdd4bf](https://medium.com/@f3igao/how-to-automate-web-accessibility-testing-921512bdd4bf)
+* [https://stackoverflow.com/questions/58858429/how-to-run-a-github-actions-step-even-if-the-previous-step-fails-while-still-f](https://stackoverflow.com/questions/58858429/how-to-run-a-github-actions-step-even-if-the-previous-step-fails-while-still-f)
