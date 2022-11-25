@@ -4,7 +4,7 @@ Testing CivicActions Homesite for accessibility issues using `pa11y-ci` and `axe
 
 ## Report
 
-[View the report of all pages of the site](/civicactions-homesite-a11y/pa11y_report/). The report can also be downloaded from GitHub under 'Artifacts' and viewed locally.
+[View the report of all pages of the site](pa11y_report/). The report can also be downloaded from GitHub under 'Artifacts' and viewed locally.
 
 ## pa11y.yml
 
